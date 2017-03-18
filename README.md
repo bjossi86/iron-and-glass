@@ -7,6 +7,9 @@ C# WebApi. Scrapes the http://www.jarngler.is/serpantanir/ website for the most 
 * GET localhost:8000/api/beer - returns all Beer objects
 * GET localhost:8000/api/beer?skip=4 - skips the first 4 rows of the Excel sheet
 
+### Demo
+http://jarnoggler.azurewebsites.net/api/beer
+
 ### Example response
 ```javascript
 [
@@ -23,6 +26,6 @@ C# WebApi. Scrapes the http://www.jarngler.is/serpantanir/ website for the most 
       "Price": "680",
       "PriceWithTax": "755",
       "PriceInAtvr": "890.9"
-    },
+    }
 ]
 ```
